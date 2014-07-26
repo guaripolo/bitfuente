@@ -189,7 +189,7 @@ int main(int argc, char* argv[])
 					sprintf(buffer,"%c",ascii);
 					//letra = TTF_RenderText_Solid(font,buffer,textColor);
 					letra = dibujarletra(buffer);
-					apply_surface(letra,canvas,32*i,32*j);
+					apply_surface(letra,canvas,ancho_tile*i,ancho_tile*j);
 
 				}
 
